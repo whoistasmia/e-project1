@@ -1,0 +1,427 @@
+.navbar {
+    background-color: #fff0f5;
+    padding: 15px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #c45b7c;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    color: #75404f;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #d9799b;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    background-color: #fff0f5;
+}
+
+.dropdown-item:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #b9587a;
+    color: white;
+}
+
+/* ---navbar end--- */
+
+
+/* ---welcome pge srart--- */
+.welcome {
+    background: linear-gradient(to right, #fff7f0, #fce5ec);
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 6px solid #f4b6c7;
+}
+
+.welcome {
+    background-image: url("pics/Soft\ Pink\ Bakery\ Pattern\ Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+}
+
+.small-text {
+    color: #d9799b;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.welcome h1 {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-size: clamp(30px, 5vw, 65px);
+    font-weight: bold;
+    font-style: italic;
+    margin: 25px 0;
+}
+
+ .welcome-text {
+    color: #512337;
+    font-size:  clamp(14px, 2vw, 20px);
+    line-height: 1.6;
+    max-width: 950px;
+    margin: 20px auto 25px;
+}
+
+.btn1 {
+    background-color: #512337;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn2 {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn1:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #512337;
+    color: white;
+} 
+
+
+/* welcome pge end--- */
+ 
+
+
+
+/* Sweet Favourites */
+
+.favourites {
+    background-color: #fff8f0;
+    padding: 50px 20px;
+}
+
+.favourites h2 {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.favourites p {
+    color: #75404f;
+    font-size: 18px;
+}
+
+/* Card */
+
+.sweet-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(81, 35, 55, 0.08);
+    transition: 0.4s;
+    height: 100%;
+}
+
+.sweet-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(81, 35, 55, 0.2);
+}
+
+/* Image */
+
+.pic {
+    overflow: hidden;
+}
+
+.pic img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.sweet-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Card Content */
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h4 {
+    color: #512337;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #75404f;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-body h5 {
+    color: #d9799b;
+    font-weight: bold;
+}
+
+.card-body a {
+    color: #512337;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-body a:hover {
+    color: #d9799b;
+}
+
+/* ---CARDS */
+
+/* offer section start */
+
+
+.offer {
+    background: linear-gradient(to right, #fff7f0, #fce5ec);
+    border-bottom: 5px solid #f4b6c7;
+}
+
+.offer-small {
+    color: #d9799b;
+    background-color: #f4b6c7;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.offer h1 {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.discount {
+    background-color: #fce5ec;
+    border: 2px dashed #d9799b;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.discount h2 {
+    color: #512337;
+    font-weight: bold;
+}
+
+.discount p {
+    color: #512337;
+    font-size: 20px;
+    margin: 0;
+}
+
+.shop-btn {
+    background-color: #512337;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.shop-btn:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.offer-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.offer-img:hover {
+    transform: scale(1.03);
+}
+
+
+
+.offer {
+    background-image: url("pics/backgroud1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    border-bottom: 5px solid #f4b6c7;
+}
+/* offer section end */
+
+/* ---FEAUTURE */
+.container .row > .col-md-4 {
+    transition: transform 0.35s ease, box-shadow 0.50s ease;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+
+.container .row > .col-md-4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px grey;
+    z-index: 2;
+    border-top:10px solid black;
+    border-bottom:10px solid black;
+
+    
+}
+.feature-box  {
+    transition: transform 0.35s ease, box-shadow 0.50s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    /* background-color: #df5c87; */
+    padding: 20px;
+   
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px grey;
+    z-index: 2;
+   background-color: #f4b6c2;
+
+    
+}
+/* ---FRAUTYRE */
+
+
+
+
+
+
+
+
+
+
+/* ---footer shuru--- */
+
+
+.footer {
+    background-color: #512337;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+
+/* Headings */
+
+.footer h2 {
+    color: #f4b6c7;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+
+.footer p {
+    line-height: 1.8;
+}
+
+/* Links */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
+}
+
+/* Social Icons */
+
+.social a {
+    background-color: #f4b6c7;
+    color: #512337;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Contact Button */
+
+.message-btn {
+    background-color: #f4b6c7;
+    color: #512337 !important;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* Date and Location */
+
+.footer-info {
+    background-color: #fce8ed;
+    color: #512337;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* Pink Banner */
+
+.pink-banner {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 15px;
+    text-align: right;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+

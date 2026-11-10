@@ -1,0 +1,352 @@
+.navbar {
+    background-color: #fff0f5;
+    padding: 15px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #c45b7c;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    color: #75404f;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #d9799b;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    background-color: #fff0f5;
+}
+
+.dropdown-item:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #b9587a;
+    color: white;
+}
+
+/* ---navbar end--- */
+
+
+/* ---welcome shuru-- */
+
+.cakes-header {
+  background: linear-gradient(to right, #fdf6f0, #ffeef2, #ffe3ec);
+  border-bottom: 4px solid #f9a8c9;
+  padding: 60px 0 45px 0;
+}
+
+.small-title {
+  color: #d46a8e;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: #4a1a2e;
+  font-family: Georgia, serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+}
+
+.sub-text {
+  color: #5a2a3a;
+  font-size: 17px;
+}
+
+.breadcrumb a {
+  color: #7a4a5a;
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: #7a4a5a;
+}
+
+/* wecome  end*/
+
+
+
+
+/* oofer end--- */
+
+body {
+    background-color: #fff8f0;
+    color: #512337;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+
+.offers h1 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #512337;
+}
+
+.offers p {
+    color: #75404f;
+}
+
+.pink-text {
+    color: #d9799b !important;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* Offer Cards */
+
+.offer-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #51233715;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.offer-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px #51233735;
+}
+
+/* Images */
+
+.offer-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-pic img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.offer-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Discount Label */
+
+.sale {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #d9799b;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Card Text */
+
+.offer-text {
+    padding: 20px;
+}
+
+.offer-text h4 {
+    font-weight: bold;
+    color: #512337;
+}
+
+.offer-text p {
+    color: #75404f;
+    line-height: 1.6;
+}
+
+.offer-text h5 {
+    color: #d9799b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.offer-text del {
+    color: #999;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* Offer Button */
+
+.offer-btn {
+    display: inline-block;
+    background-color: #512337;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.offer-btn:hover {
+    background-color: #d9799b;
+    color: #512337;
+}
+
+/* Sweet Deal */
+
+.sweet-deal {
+    background-color: #fce5ec;
+    border-top: 5px solid #f4b6c7;
+    border-bottom: 5px solid #f4b6c7;
+}
+
+.sweet-deal h2 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #512337;
+}
+
+.sweet-deal p {
+    color: #75404f;
+    margin: 15px 0 25px;
+}
+
+.deal-btn {
+    display: inline-block;
+    background-color: #512337;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.deal-btn:hover {
+    background-color: #d9799b;
+    color: #512337;
+}
+
+/* Terms */
+
+.terms h3 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.terms p {
+    color: #75404f;
+}
+/* offer end--- */
+
+
+ 
+
+
+
+/* ---footer shuru--- */
+
+
+.footer {
+    background-color: #512337;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+
+/* Headings */
+
+.footer h2 {
+    color: #f4b6c7;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+
+.footer p {
+    line-height: 1.8;
+}
+
+/* Links */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
+}
+
+/* Social Icons */
+
+.social a {
+    background-color: #f4b6c7;
+    color: #512337;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Contact Button */
+
+.message-btn {
+    background-color: #f4b6c7;
+    color: #512337 !important;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* Date and Location */
+
+.footer-info {
+    background-color: #fce8ed;
+    color: #512337;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* Pink Banner */
+
+.pink-banner {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 15px;
+    text-align: right;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+

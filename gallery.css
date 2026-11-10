@@ -1,0 +1,299 @@
+.navbar {
+    background-color: #fff0f5;
+    padding: 15px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #c45b7c;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    color: #75404f;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #d9799b;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    background-color: #fff0f5;
+}
+
+.dropdown-item:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #b9587a;
+    color: white;
+}
+
+/* ---navbar end--- */
+
+/* ---welcome shuru-- */
+
+.cakes-header {
+  background: linear-gradient(to right, #fdf6f0, #ffeef2, #ffe3ec);
+  border-bottom: 4px solid #f9a8c9;
+  padding: 60px 0 45px 0;
+}
+
+.small-title {
+  color: #d46a8e;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: #4a1a2e;
+  font-family: Georgia, serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+}
+
+.sub-text {
+  color: #5a2a3a;
+  font-size: 17px;
+}
+
+.breadcrumb a {
+  color: #7a4a5a;
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: #7a4a5a;
+}
+
+/* wecome  end*/
+
+
+
+
+body {
+    background-color: #fff8f0;
+    color: #512337;
+    font-family: Arial, sans-serif;
+}
+
+/* Gallery */
+
+.gallery h2 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.gallery p {
+    color: #75404f;
+}
+
+/* Category Buttons */
+
+.gal-btn {
+    display: inline-block;
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.gal-btn:hover {
+    background-color: #512337;
+    color: white;
+}
+
+/* Cards */
+
+.gal-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #51233715;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.gal-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px #51233735;
+}
+
+/* Images */
+
+.gal-pic {
+    overflow: hidden;
+}
+
+.gal-pic img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.gal-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Card Text */
+
+.gal-text {
+    padding: 20px;
+}
+
+.gal-text h4 {
+    color: #c45b7c;
+    font-weight: bold;
+}
+
+.gal-text p {
+    color: #75404f;
+    margin-bottom: 0;
+}
+
+/* Bottom Section */
+
+.sweet-moments {
+    background-color: #fce5ec;
+    border-top: 5px solid #f4b6c7;
+}
+
+.sweet-moments h2 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.sweet-moments p {
+    margin: 20px 0;
+}
+
+/* Button */
+
+.sweet-btn {
+    display: inline-block;
+    background-color: #512337;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sweet-btn:hover {
+    background-color: #d9799b;
+    color: #512337;
+}
+
+
+
+/* ---footer shuru--- */
+
+
+.footer {
+    background-color: #512337;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+
+/* Headings */
+
+.footer h2 {
+    color: #f4b6c7;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+
+.footer p {
+    line-height: 1.8;
+}
+
+/* Links */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
+}
+
+/* Social Icons */
+
+.social a {
+    background-color: #f4b6c7;
+    color: #512337;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Contact Button */
+
+.message-btn {
+    background-color: #f4b6c7;
+    color: #512337 !important;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* Date and Location */
+
+.footer-info {
+    background-color: #fce8ed;
+    color: #512337;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* Pink Banner */
+
+.pink-banner {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 15px;
+    text-align: right;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
