@@ -91,6 +91,72 @@
 
 
 
+/* feedback start  */
+
+.feedback-form-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 60px 20px;
+}
+
+.feedback-form-box {
+  background-color:Cream #fff7f0  ;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.feedback-form-box h2 {
+  text-align: center;
+  color: #ff4d88;
+}
+
+.feedback-form-box p {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
+.feedback-form-box label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.feedback-form-box input,
+.feedback-form-box select,
+.feedback-form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.feedback-form-box textarea {
+  height: 80px;
+  resize: none;
+}
+
+.feedback-form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #ff4d88;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* feedback end  */
+
+
 
 
 

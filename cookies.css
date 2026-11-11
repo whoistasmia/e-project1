@@ -93,92 +93,103 @@
  
 
 
+ /* ---card start---- */
+.cakes {
+    background-color: #fff8f0;
+    padding: 50px 20px;
+}
+
+.cakes h2 {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.cakes p {
+    color: #75404f;
+    font-size: 18px;
+}
+
+
+
+/* Card */
+
+.sweet-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(81, 35, 55, 0.08);
+    transition: 0.4s;
+    height: 100%;
+}
+
+.sweet-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(81, 35, 55, 0.2);
+}
+
+/* Image */
+
+.pic {
+    overflow: hidden;
+}
+
+.pic img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.sweet-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Card Content */
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h4 {
+    color: #512337;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #75404f;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-body h5 {
+    color: #d9799b;
+    font-weight: bold;
+}
+
+.card-body a {
+    color: #512337;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-body a:hover {
+    color: #d9799b;
+}
+  
+/* ---CARDS */
+
+
+
+
+
+
+
 
 /* ---footer shuru--- */
 
 
-.footer {
-    background-color: #512337;
-    color: white;
-    padding: 50px 0 20px;
-    margin-top: 50px;
-}
 
-/* Headings */
-
-.footer h2 {
-    color: #f4b6c7;
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.footer h4 {
-    color: #f4b6c7;
-    margin-bottom: 20px;
-}
-
-/* Paragraph */
-
-.footer p {
-    line-height: 1.8;
-}
-
-/* Links */
-
-.footer a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 12px;
-}
-
-.footer a:hover {
-    color: #f4b6c7;
-}
-
-/* Social Icons */
-
-.social a {
-    background-color: #f4b6c7;
-    color: #512337;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-/* Contact Button */
-
-.message-btn {
-    background-color: #f4b6c7;
-    color: #512337 !important;
-    padding: 12px 20px;
-    border-radius: 30px;
-}
-
-/* Date and Location */
-
-.footer-info {
-    background-color: #fce8ed;
-    color: #512337;
-    padding: 25px;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-
-/* Pink Banner */
-
-.pink-banner {
-    background-color: #f4b6c7;
-    color: #512337;
-    padding: 15px;
-    text-align: right;
-    border-radius: 30px;
-    margin-top: 20px;
-    font-weight: bold;
-}
 

@@ -29,7 +29,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="home.html">Home</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -86,6 +86,9 @@
 
 <!-- welcome shuru-- -->
  <!-- Cakes Header Section-- -->
+
+  
+  
    <section class="cakes-header text-center">
     <div class="container">
 
@@ -108,8 +111,43 @@
     </div>
   </section> 
 
+
+
 <!-- welcome end -->
 
+
+<!-- feedback start  -->
+
+<section class="feedback-form-section">
+  <div class="feedback-form-box">
+    <h2>Give Your Feedback </h2>
+    <p>Apna experience hamare saath share karein!</p>
+
+    <label>Your Name</label>
+    <input type="text" placeholder="Enter your name" id="name">
+
+    <label>Your Email</label>
+    <input type="email" placeholder="Enter your email" id="mail">
+
+    <label>How was our service?</label>
+    <select id="service">
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Bad</option>
+    </select>
+
+    <label>Your Message</label>
+    <textarea placeholder="Write your feedback here..." id="message"></textarea>
+
+    
+    <button onclick="response()">Submit Feedback</button>
+    
+  </div>
+</section>
+
+
+ <!-- feedback end  -->
 
 
 
@@ -166,5 +204,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="feedback.js"></script>
 </body>
 </html>
