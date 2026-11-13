@@ -1,0 +1,285 @@
+.navbar {
+    background-color: #fff0f5;
+    padding: 15px;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #c45b7c;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    color: #75404f;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #d9799b;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    background-color: #fff0f5;
+}
+
+.dropdown-item:hover {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn {
+    background-color: #d9799b;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #b9587a;
+    color: white;
+}
+
+/* ---navbar end--- */
+
+
+/* banner start */
+
+.site-banner {
+    background: linear-gradient(to right, #fce5ec, #fff7f0);
+    padding: 65px 15px;
+    border-bottom: 5px solid #f4b6c7;
+}
+
+.site-banner p {
+    color: #d9799b;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.site-banner h1 {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.site-banner h5 {
+    color: #75404f;
+}
+
+/* sitemap start */
+
+.sitemap {
+    background-color: #fff7f0;
+}
+
+.home-box {
+    background-color: #512337;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 40px;
+    width: 250px;
+    margin: auto;
+}
+
+.home-box h2 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.site-card {
+    background-color: white;
+    border: 1px solid #f4b6c7;
+    border-radius: 18px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(81, 35, 55, 0.10);
+    transition: 0.3s;
+}
+
+.site-card h3 {
+    background-color: #fce5ec;
+    color: #512337;
+    text-align: center;
+    padding: 18px 5px;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.site-card ul {
+    padding: 18px 30px;
+    margin: 0;
+}
+
+.site-card ul li {
+    color: #d9799b;
+    margin-bottom: 10px;
+}
+
+.site-card ul li a {
+    color: #512337;
+    text-decoration: none;
+}
+
+.site-card ul li a:hover {
+    color: #d9799b;
+}
+
+.site-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(81, 35, 55, 0.18);
+}
+
+.last-line {
+    color: #512337;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+
+
+
+/* ---welcome shuru-- */
+
+.cakes-header {
+  background: linear-gradient(to right, #fdf6f0, #ffeef2, #ffe3ec);
+  border-bottom: 4px solid #f9a8c9;
+  padding: 60px 0 45px 0;
+}
+
+.small-title {
+  color: #d46a8e;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-title {
+  color: #4a1a2e;
+  font-family: Georgia, serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+}
+
+.sub-text {
+  color: #5a2a3a;
+  font-size: 17px;
+}
+
+.breadcrumb a {
+  color: #7a4a5a;
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: #7a4a5a;
+}
+
+/* wecome  end*/
+ 
+    
+
+/* ---footer shuru--- */
+
+
+.footer {
+    background-color: #512337;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+
+/* Headings */
+
+.footer h2 {
+    color: #f4b6c7;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+
+.footer p {
+    line-height: 1.8;
+}
+
+/* Links */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
+}
+
+/* Social Icons */
+
+.social a {
+    background-color: #f4b6c7;
+    color: #512337;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Contact Button */
+
+.message-btn {
+    background-color: #f4b6c7;
+    color: #512337 !important;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* Date and Location */
+
+.footer-info {
+    background-color: #fce8ed;
+    color: #512337;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* Pink Banner */
+
+.pink-banner {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 15px;
+    text-align: right;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+

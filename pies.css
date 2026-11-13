@@ -187,3 +187,51 @@
 /* ---footer shuru--- */
 
 
+/* footer fix */
+
+.myfooter {
+    background-color: #3f1730;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.myfooter p {
+    color: white !important;
+}
+
+.myfooter h2 {
+    color: white;
+}
+
+.myfooter h3 {
+    color: #f4b6c7;
+}
+
+.myfooter i {
+    color: #f4b6c7;
+}
+
+.myfooter ul li a {
+    color: white;
+}
+
+.date-box {
+    background-color: #f9d2df;
+    color: #512337;
+}
+
+.bottom-text {
+    background-color: #fff7f0;
+    padding: 20px 4%;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-text p {
+    background-color: #f4b6c7;
+    color: #512337;
+    padding: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+}
