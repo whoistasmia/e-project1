@@ -93,7 +93,7 @@
 
 
  /* form--- */
-
+/* 
  body {
   background-color: #fff6f2;
 }
@@ -118,7 +118,74 @@
 .btn-send:hover {
   background-color: #35142a;
   color: white;
+} */
+
+
+/* feedback start */
+
+.contact-form-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 60px 20px;
+  background-color: #F5F0E6;
 }
+
+.contact-form-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-form-box h2 {
+  text-align: center;
+  color: #ff4d88;
+}
+
+.contact-form-box p {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
+.contact-form-box label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact-form-box input,
+.contact-form-box select,
+.contact-form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form-box textarea {
+  height: 80px;
+  resize: none;
+}
+
+.contact-form-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #ff4d88;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* feedback end */
 /* fornend-- */
 /* ---footer shuru--- */
 

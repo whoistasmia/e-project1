@@ -183,55 +183,39 @@
 
 
 
-
-/* ---footer shuru--- */
-
-
-/* footer fix */
-
-.myfooter {
-    background-color: #3f1730;
+.footer {
+    background-color: #512337;
     color: white;
-    width: 100%;
-    margin: 0;
+    padding: 50px 0 20px;
+    margin: 50px 0 0;
 }
 
-.myfooter p {
-    color: white !important;
-}
-
-.myfooter h2 {
+/* Headings */
+.footer h3 {
     color: white;
-}
-
-.myfooter h3 {
-    color: #f4b6c7;
-}
-
-.myfooter i {
-    color: #f4b6c7;
-}
-
-.myfooter ul li a {
-    color: white;
-}
-
-.date-box {
-    background-color: #f9d2df;
-    color: #512337;
-}
-
-.bottom-text {
-    background-color: #fff7f0;
-    padding: 20px 4%;
-    width: 100%;
-    text-align: center;
-}
-
-.bottom-text p {
-    background-color: #f4b6c7;
-    color: #512337;
-    padding: 18px;
-    border-radius: 30px;
+    font-size: 28px;
     font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.footer p {
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+/* Links */
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
 }

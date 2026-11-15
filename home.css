@@ -330,6 +330,58 @@
 
 
 
+/* View Details Button */
+
+.detail-btn {
+    background-color: #512337;
+    color: white;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+.detail-btn:hover {
+    background-color: #75404f;
+    color: white;
+}
+
+/* Modal Styling */
+
+.modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-content img {
+    min-height: 280px;
+    object-fit: cover;
+}
+
+.modal-content h4 {
+    color: #512337;
+    margin-top: 20px;
+}
+
+.modal-content p {
+    color: gray;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.modal-content h5 {
+    color: #512337;
+    margin: 20px 0;
+}
+
+.order-btn {
+    background-color: #512337;
+    color: white;
+}
+
+.order-btn:hover {
+    background-color: #75404f;
+    color: white;
+}
+
 
 
 
@@ -337,7 +389,7 @@
 /* why choose us start */
 
 .choose {
-    background: linear-gradient(to right, #fff7f0, #fce5ec);
+    background-color:beige ;
 }
 
 .choose-img {
@@ -367,7 +419,7 @@
 }
 
 .choose-box {
-    background-color: #fce5ec;
+    background-color: white;
     padding: 25px 15px;
     border-radius: 20px;
     text-align: center;

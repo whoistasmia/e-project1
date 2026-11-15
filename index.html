@@ -1,485 +1,721 @@
 
+        
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bakerz Bite</title>
+
+        <!-- Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakerz Bite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+    <!-- ---navbar start gng-- -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+                
+        <a class="navbar-brand" href="">Bakerz Bite</a>
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
- 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="home.css">
-</head>
-<body>
-<!-- ---navbar start gng-- -->
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <a class="navbar-brand" href="">Bakerz Bite</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <button class="navbar-toggler" type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+            </li>
 
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href=""
+            id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+                Menu
+            </a>
 
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cakes.html">Cakes</a></li>
+                <li><a class="dropdown-item" href="pasteries.html">Pastries</a></li>
+                <li><a class="dropdown-item" href="pies.html">Pies</a></li>
+                <li><a class="dropdown-item" href="cookies.html">Cookies</a></li>
+                <li><a class="dropdown-item" href="marchandies.html">Merchandise</a></li>
+            </ul>
+            </li>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href=""
-          id="navbarDropdown" role="button"
-          data-bs-toggle="dropdown">
-            Menu
-          </a>
+            <li class="nav-item">
+            <a class="nav-link" href="offer.html">Offers</a>
+            </li>
 
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="cakes.html">Cakes</a></li>
-            <li><a class="dropdown-item" href="pasteries.html">Pastries</a></li>
-            <li><a class="dropdown-item" href="pies.html">Pies</a></li>
-            <li><a class="dropdown-item" href="cookies.html">Cookies</a></li>
-            <li><a class="dropdown-item" href="marchandies.html">Merchandise</a></li>
-          </ul>
-        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="offer.html">Offers</a>
-        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="faq.html">FAQ</a>
-        </li>
-        
+            <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            
+                    <li class="nav-item">
+            <a class="nav-link" href="feedback.html">feedback</a>
+            </li>
+            
                 <li class="nav-item">
-          <a class="nav-link" href="feedback.html">feedback</a>
-        </li>
-        
-              <li class="nav-item">
-          <a class="nav-link" href="sitemap.html">sitemap</a>
-        </li>
+            <a class="nav-link" href="sitemap.html">sitemap</a>
+            </li>
 
-      </ul>
+        </ul>
 
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search">
-        <button class="btn search-btn" type="submit">Search</button>
-      </form>
-
-    </div>
-  </div>
-</nav>
-<!-- --navbar end--- -->
-
-<section class="welcome" id="home">
-
-    <div class="container">
-        <div class="row align-items-center">
-
-            <div class="col-md-7 text-start">
-
-                <p class="small-text">PATISSERIE & BAKERY</p>
-
-                <h1>Welcome to Our Website</h1>
-
-                <p class="welcome-text">
-                    Freshly baked treats, made with love. Discover cakes,
-                    pastries, cookies and little things that make
-                    every moment sweeter.
-                </p>
-
-                <a href="cakes.html" class="btn1">Explore Sweet Treats</a>
-
-                <a href="offer.html" class="btn2">View Offers</a>
-
-            </div>
-
-            <!-- Image Right Side -->
-            <div class="col-md-5 text-center">
-                <img src="pics/welcom1.png" class="img-fluid cake-img" alt="Cake">
-            </div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn search-btn" type="submit">Search</button>
+        </form>
 
         </div>
     </div>
+    </nav>
+    <!-- --navbar end--- -->
 
-</section>
+    <section class="welcome" id="home">
 
-<!-- welcome page end -->
- 
+        <div class="container">
+            <div class="row align-items-center">
 
-<!-- end of welcome--- -->
+                <div class="col-md-7 text-start">
 
-<!-- ---FAV -->
-<section class="favourites" id="favourites">
+                    <p class="small-text">PATISSERIE & BAKERY</p>
 
-    <div class="container">
+                    <h1>Welcome to Our Website</h1>
 
-        <div class="text-center mb-4">
-            <h2>Our Sweet Favourites</h2>
-            <p>From celebration cakes to everyday treats, there is something lovely for everyone.</p>
-        </div>
-
-        <div class="row"> 
-
-            <!-- Cake -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="sweet-card">
-
-                    <div class="pic">
-                        <img src="pics/cake celab3.jpg" alt="Celebration Cake">
-                    </div>
-
-                    <div class="card-body">
-                        <h4>Celebration Cake</h4>
-                        <p>Made for birthdays, milestones and your sweetest celebrations.</p>
-                        <h5>PKR 2,500</h5>
-                        <a href="#">View details </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Cupcakes -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="sweet-card">
-
-                    <div class="pic">
-                        <img src="pics/preety cupcakes.jpg" alt="Pretty Cupcakes">
-                    </div>
-
-                    <div class="card-body">
-                        <h4>Pretty Cupcakes</h4>
-                        <p>Small fluffy cupcakes topped with a swirl of frosting.</p>
-                        <h5>PKR 250 each</h5>
-                        <a href="#">View details </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- tarts -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="sweet-card">
-
-                    <div class="pic">
-                        <img src="pics/berry fruit tarts.jpg" alt="Chocolate Chip Cookies">
-                    </div>
-
-                    <div class="card-body">
-                        <h4>berry fruity tarts</h4>
-                        <p>Individual tarts topped with colourful fruit..</p>
-                        <h5>PKR 380 each</h5>
-                        <a href="#">View details </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Cookies -->
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="sweet-card">
-
-                    <div class="pic">
-                        <img src="pics/choclatechip cookies.jpg" alt="Chocolate Chip Cookies">
-                    </div>
-
-                    <div class="card-body">
-                        <h4>Chocolate Chip Cookies</h4>
-                        <p>A classic cookie filled with chocolate chips.</p>
-                        <h5>PKR 180 each</h5>
-                        <a href="#">View details </a>
-                    </div>
-
-                </div>
-            </div>
-<!-- END-- -->
-
-            <!-- Tote bags -->
-          
-        </div>
-    </div>
-</section>
-
-<!-- --FAV KHATM -->
-
-
-<!-- special offer start -->
-
-<section class="offer py-5">
-
-    <div class="container">
-        <div class="row align-items-center">
-
-            <!-- Text side -->
-            <div class="col-md-6 text-center">
-
-                <h5 class="offer-small">Special Offers</h5>
-
-                <h1>A Little Sweetness,<br>
-                    A Special Treat!
-                </h1>
-
-                <div class="discount">
-                    <h2>Get 10% OFF</h2>
-                    <p>on your first order</p>
-                </div>
-
-                <a href="cakes.html" class="shop-btn">
-                    Shop Now 
-                </a>
-
-            </div>
-
-            <!-- Cake picture -->
-            <div class="col-md-6 text-center">
-                <img src="pics/offer pic.png"
-                     class="img-fluid offer-img"
-                     alt="Special Offer Cake">
-            </div>
-
-        </div>
-    </div>
-
-</section>
-
-<!-- special offer end -->
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Features Section -->
-<div class="container-fluid py-4">
-    <div class="row text-center align-items-center">
-
-        <!-- Feature 1 -->
-        <div class="col-6 col-md-3 feature-box">
-            <div class="feature-icon">
-                <i class="bi bi-truck"></i>
-            </div>
-            <h5>Secure Delivery</h5>
-            <p>Carefully handled orders</p>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="col-6 col-md-3 feature-box">
-            <div class="feature-icon">
-                <i class="bi bi-shield-check"></i>
-            </div>
-            <h5>Product Quality</h5>
-            <p>Quality you can trust</p>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="col-6 col-md-3 feature-box">
-            <div class="feature-icon">
-                <i class="bi bi-headset"></i>
-            </div>
-            <h5>Customer Support</h5>
-            <p>Here to help you</p>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="col-6 col-md-3 feature-box">
-            <div class="feature-icon">
-                <i class="bi bi-gift"></i>
-            </div>
-            <h5>Luxury Packaging</h5>
-            <p>Made for gifting</p>
-        </div>
-
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <marquee>
-                <h1 style="font-size: 50px; text-shadow: 7px 7px 5px pink; color:#75404f; font-family: Georgia, serif;">Sweet & Celebratory "Best for Cakes & Cupcakes"</h1>
-            </marquee>
-        </div>
-    </div>
-</div>
-<hr style="color:#75404f ; font-weight: bolder;"><hr style="color:#75404f ; font-weight: bolder;"><hr style="color:#75404f ; font-weight: bolder;">
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-2">
-            <img src="pics/cake-christmas-dessert-svgrepo-com.svg" class="w-100" alt="">
-        </div>
-        <div class="col-md-2">
-            <img src="pics/" alt="">
-        </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2"></div>
-    </div>
-</div>
-
-
-
-
-
-<!-- Why Choose Us Start -->
-
-<section class="choose py-5">
-
-    <div class="container">
-        <div class="row align-items-center">
-
-            <!-- Left Side Image -->
-
-            <div class="col-lg-5 col-md-12 mb-4">
-                <img src="pics/side pic.png"
-                     class="img-fluid choose-img"
-                     alt="Bakerz Bite Cake">
-            </div>
-
-            <!-- Right Side Content -->
-
-            <div class="col-lg-7 col-md-12">
-
-                <div class="text-center mb-4">
-                    <p class="choose-small">BAKERZ BITE</p>
-
-                    <h2>Why Choose Us?</h2>
-
-                    <p class="choose-text">
-                        Because at Bakerz Bite, we bake more than
-                        just treats — we bake happiness!
+                    <p class="welcome-text">
+                        Freshly baked treats, made with love. Discover cakes,
+                        pastries, cookies and little things that make
+                        every moment sweeter.
                     </p>
-                </div>
 
-                <div class="row">
+                    <a href="cakes.html" class="btn1">Explore Sweet Treats</a>
 
-                    <!-- Box 1 -->
-
-                    <div class="col-md-6 mb-3">
-                        <div class="choose-box">
-                            <h4>Premium Quality</h4>
-                            <p>Made with the finest ingredients.</p>
-                        </div>
-                    </div>
-
-                    <!-- Box 2 -->
-
-                    <div class="col-md-6 mb-3">
-                        <div class="choose-box">
-                            <h4>Expert Bakers</h4>
-                            <p>Crafted with love by skilled bakers.</p>
-                        </div>
-                    </div>
-
-                    <!-- Box 3 -->
-
-                    <div class="col-md-6 mb-3">
-                        <div class="choose-box">
-                            <h4>Fast & Fresh Delivery</h4>
-                            <p>Get your sweets fresh and on time.</p>
-                        </div>
-                    </div>
-
-                    <!-- Box 4 -->
-
-                    <div class="col-md-6 mb-3">
-                        <div class="choose-box">
-                            <h4>Made With Love</h4>
-                            <p>Because you deserve the sweetest moments.</p>
-                        </div>
-                    </div>
+                    <a href="offer.html" class="btn2">View Offers</a>
 
                 </div>
 
+                <!-- Image Right Side -->
+                <div class="col-md-5 text-center">
+                    <img src="pics/welcom1.png" class="img-fluid cake-img" alt="Cake">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- welcome page end -->
+    
+
+    <!-- end of welcome--- -->
+
+    <!-- ---FAV -->
+    <section class="favourites" id="favourites">
+
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h2>Our Sweet Favourites</h2>
+                <p>From celebration cakes to everyday treats, there is something lovely for everyone.</p>
+            </div>
+
+            <div class="row"> 
+
+                <!-- Cake -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/cake celab3.jpg" alt="Celebration Cake">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Celebration Cake</h4>
+                            <p>Made for birthdays, milestones and your sweetest celebrations.</p>
+                            <h5>PKR 2,500</h5>
+                            <a href="contact.html">View details </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Cupcakes -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/preety cupcakes.jpg" alt="Pretty Cupcakes">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Pretty Cupcakes</h4>
+                            <p>Small fluffy cupcakes topped with a swirl of frosting.</p>
+                            <h5>PKR 250 each</h5>
+                            <a href="contact.html">View details </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- tarts -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/berry fruit tarts.jpg" alt="Chocolate Chip Cookies">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>berry fruity tarts</h4>
+                            <p>Individual tarts topped with colourful fruit..</p>
+                            <h5>PKR 380 each</h5>
+                            <a href="contact.html">View details </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Cookies -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/choclatechip cookies.jpg" alt="Chocolate Chip Cookies">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Chocolate Chip Cookies</h4>
+                            <p>A classic cookie filled with chocolate chips.</p>
+                            <h5>PKR 180 each</h5>
+                            <a href="contact.html">View details </a>
+                        </div>
+
+                    </div>
+                </div>
+    <!-- END-- -->
+
+                <!-- Tote bags -->
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- --FAV KHATM -->
+
+
+    <!-- special offer start -->
+
+    <section class="offer py-5">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Text side -->
+                <div class="col-md-6 text-center">
+
+                    <h5 class="offer-small">Special Offers</h5>
+
+                    <h1>A Little Sweetness,<br>
+                        A Special Treat!
+                    </h1>
+
+                    <div class="discount">
+                        <h2>Get 10% OFF</h2>
+                        <p>on your first order</p>
+                    </div>
+
+                    <a href="cakes.html" class="shop-btn">
+                        Shop Now 
+                    </a>
+
+                </div>
+
+                <!-- Cake picture -->
+                <div class="col-md-6 text-center">
+                    <img src="pics/offer pic.png"
+                        class="img-fluid offer-img"
+                        alt="Special Offer Cake">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- special offer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Features Section -->
+    <div class="container-fluid py-4">
+        <div class="row text-center align-items-center">
+
+            <!-- Feature 1 -->
+            <div class="col-6 col-md-3 feature-box">
+                <div class="feature-icon">
+                    <i class="bi bi-truck"></i>
+                </div>
+                <h5>Secure Delivery</h5>
+                <p>Carefully handled orders</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-6 col-md-3 feature-box">
+                <div class="feature-icon">
+                    <i class="bi bi-shield-check"></i>
+                </div>
+                <h5>Product Quality</h5>
+                <p>Quality you can trust</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-6 col-md-3 feature-box">
+                <div class="feature-icon">
+                    <i class="bi bi-headset"></i>
+                </div>
+                <h5>Customer Support</h5>
+                <p>Here to help you</p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-6 col-md-3 feature-box">
+                <div class="feature-icon">
+                    <i class="bi bi-gift"></i>
+                </div>
+                <h5>Luxury Packaging</h5>
+                <p>Made for gifting</p>
             </div>
 
         </div>
     </div>
 
-</section>
-
-<!-- Why Choose Us End -->
-
-
-
-<!-- ---footer shuru -->
-
-<footer class="footer">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
+            <div class="col-md-12">
+                <marquee>
+                    <h1 style="font-size: 50px; text-shadow: 7px 7px 5px pink; color:#75404f; font-family: Georgia, serif;">Sweet & Celebratory "Best for Cakes & Cupcakes"</h1>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <hr style="color:#75404f ; font-weight: bolder;"><hr style="color:#75404f ; font-weight: bolder;"><hr style="color:#75404f ; font-weight: bolder;">
 
-            <!-- About -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <h3>Bakerz Bite</h3>
-                <p>
-                    Freshly baked happiness every day.
-                    We serve delicious cakes, pastries,
-                    cookies and more.
-                </p>
-                <p><i>Where smiles are served daily.</i></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Cards Start -->
+
+    <section class="cakes" id="cakes">
+
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h2>Made With Love</h2>
+                <p>From celebration cakes to everyday treats, there is something lovely for everyone.</p>
             </div>
 
-            <!-- Quick Links -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <h4>Quick Links</h4>
-                <ul class="footer-links">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+            <div class="row">
 
-            <!-- Contact -->
-            <div class="col-lg-4 col-md-12 mb-4">
-                <h4>Contact Us</h4>
-                <p>Email: bakerzbite@gmail.com</p>
-                <p>Phone: 0300-1234567</p>
-                <p>Address: Karachi, Pakistan</p>
-            </div>
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
 
+                        <div class="pic">
+                            <img src="pics/pastry1.jpg" alt="chocolate">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Chocolate Pastry</h4>
+                            <p>Rich and creamy chocolate delight.</p>
+                            <h5>PKR 250</h5>
+
+                            <button class="btn detail-btn"
+                            data-bs-toggle="modal" data-bs-target="#cake1">
+                                View Details
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/pastry2.jpg" alt="Black Forest">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Black Forest</h4>
+                            <p>Chocolate, cream and cherry layers.</p>
+                            <h5>PKR 280</h5>
+
+                            <button class="btn detail-btn"
+                            data-bs-toggle="modal" data-bs-target="#cake2">
+                                View Details
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/pastry3.jpg" alt="vanilla">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Vanilla Pastry</h4>
+                            <p>Soft sponge with vanilla cream.</p>
+                            <h5>PKR 220</h5>
+
+                            <button class="btn detail-btn"
+                            data-bs-toggle="modal" data-bs-target="#cake3">
+                                View Details
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                 
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="sweet-card">
+
+                        <div class="pic">
+                            <img src="pics/pastry4.jpg" alt="Strawberry">
+                        </div>
+
+                        <div class="card-body">
+                            <h4>Strawberry Pastry</h4>
+                            <p>Strawberry flavour with creamy topping.</p>
+                            <h5>PKR 180</h5>
+
+                            <button class="btn detail-btn"
+                            data-bs-toggle="modal" data-bs-target="#cake4">
+                                View Details
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <hr>
 
-        
+        <!-- Modal 1 -->
+        <div class="modal fade" id="cake1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
 
-    </div>
-</footer>
+                    <div class="row g-0">
+
+                        <div class="col-md-6">
+                            <img src="pics/pastry1.jpg" class="w-100 h-100" style="object-fit: cover;">
+                        </div>
+
+                        <div class="col-md-6 p-4">
+                            <button type="button" class="btn-close float-end"
+                            data-bs-dismiss="modal"></button>
+
+                            <h4>Chocolate Pastry</h4>
+                            <p>Rich and creamy chocolate delight with delicious chocolate layers. A perfect treat for chocolate lovers.</p>
+
+                            <h5>PKR 250</h5>
+
+                            <a href="contact.html" class="btn order-btn w-100">
+                                Order Now
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="cake2">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+
+                    <div class="row g-0">
+
+                        <div class="col-md-6">
+                            <img src="pics/pastry2.jpg" class="w-100 h-100" style="object-fit: cover;">
+                        </div>
+
+                        <div class="col-md-6 p-4">
+                            <button type="button" class="btn-close float-end"
+                            data-bs-dismiss="modal"></button>
+
+                            <h4>Black Forest</h4>
+                            <p>Delicious chocolate sponge with fresh cream and cherry layers. A lovely choice for sweet moments.</p>
+
+                            <h5>PKR 280</h5>
+
+                            <a href="contact.html" class="btn order-btn w-100">
+                                Order Now
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="cake3">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+
+                    <div class="row g-0">
+
+                        <div class="col-md-6">
+                            <img src="pics/pastry3.jpg" class="w-100 h-100" style="object-fit: cover;">
+                        </div>
+
+                        <div class="col-md-6 p-4">
+                            <button type="button" class="btn-close float-end"
+                            data-bs-dismiss="modal"></button>
+
+                            <h4>Vanilla Pastry</h4>
+                            <p>Soft vanilla sponge topped with smooth and creamy vanilla frosting. Perfect for every occasion.</p>
+
+                            <h5>PKR 220</h5>
+
+                            <a href="contact.html" class="btn order-btn w-100">
+                                Order Now
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="cake4">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+
+                    <div class="row g-0">
+
+                        <div class="col-md-6">
+                            <img src="pics/pastry4.jpg" class="w-100 h-100" style="object-fit: cover;">
+                        </div>
+
+                        <div class="col-md-6 p-4">
+                            <button type="button" class="btn-close float-end"
+                            data-bs-dismiss="modal"></button>
+
+                            <h4>Strawberry Pastry</h4>
+                            <p>Soft pastry with delicious strawberry flavour and creamy topping. A delightful treat for everyone.</p>
+
+                            <h5>PKR 180</h5>
+
+                            <a href="contact.html" class="btn order-btn w-100">
+                                Order Now
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Cards End -->
 
 
 
 
- <!-- ---footer khtm -->
+
+    <!-- Why Choose Us Start -->
+
+    <section class="choose py-5">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Side Image -->
+
+                <div class="col-lg-5 col-md-12 mb-4">
+                    <img src="pics/side pic.png"
+                        class="img-fluid choose-img"
+                        alt="Bakerz Bite Cake">
+                </div>
+
+                <!-- Right Side Content -->
+
+                <div class="col-lg-7 col-md-12">
+
+                    <div class="text-center mb-4">
+                        <p class="choose-small">BAKERZ BITE</p>
+
+                        <h2>Why Choose Us?</h2>
+
+                        <p class="choose-text">
+                            Because at Bakerz Bite, we bake more than
+                            just treats — we bake happiness!
+                        </p>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Box 1 -->
+
+                        <div class="col-md-6 mb-3">
+                            <div class="choose-box">
+                                <h4>Premium Quality</h4>
+                                <p>Made with the finest ingredients.</p>
+                            </div>
+                        </div>
+
+                        <!-- Box 2 -->
+
+                        <div class="col-md-6 mb-3">
+                            <div class="choose-box">
+                                <h4>Expert Bakers</h4>
+                                <p>Crafted with love by skilled bakers.</p>
+                            </div>
+                        </div>
+
+                        <!-- Box 3 -->
+
+                        <div class="col-md-6 mb-3">
+                            <div class="choose-box">
+                                <h4>Fast & Fresh Delivery</h4>
+                                <p>Get your sweets fresh and on time.</p>
+                            </div>
+                        </div>
+
+                        <!-- Box 4 -->
+
+                        <div class="col-md-6 mb-3">
+                            <div class="choose-box">
+                                <h4>Made With Love</h4>
+                                <p>Because you deserve the sweetest moments.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Why Choose Us End -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
+
+    <!-- ---footer shuru -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- About -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h3>Bakerz Bite</h3>
+                    <p>
+                        Freshly baked happiness every day.
+                        We serve delicious cakes, pastries,
+                        cookies and more.
+                    </p>
+                    <p><i>Where smiles are served daily.</i></p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: bakerzbite@gmail.com</p>
+                    <p>Phone: 0300-1234567</p>
+                    <p>Address: Karachi, Pakistan</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- ---footer khtm -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>

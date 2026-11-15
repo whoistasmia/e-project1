@@ -181,7 +181,7 @@
 
 .card-body a {
     color: #512337;
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 18px;
 }
 
@@ -202,54 +202,42 @@
 
 
 
-/* ---footer shuru--- */
-/* footer start */
 
-.myfooter {
+
+
+.footer {
     background-color: #512337;
     color: white;
-    padding-top: 20px;
+    padding: 50px 0 20px;
+    margin: 50px 0 0;
 }
 
-.myfooter h2 {
+/* Headings */
+.footer h3 {
     color: white;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.myfooter h3 {
+.footer h4 {
     color: #f4b6c7;
-    font-size: 24px;
     margin-bottom: 20px;
 }
 
-.myfooter p {
-    font-size: 16px;
+/* Paragraph */
+.footer p {
+    color: #ffffff;
     line-height: 1.8;
 }
 
-.myfooter ul {
-    list-style: none;
-    padding: 0;
-}
-
-.myfooter ul li {
+/* Links */
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
     margin-bottom: 12px;
 }
 
-.myfooter ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.myfooter ul li a:hover {
+.footer a:hover {
     color: #f4b6c7;
-    padding-left: 5px;
 }
-
-.myfooter hr {
-    border-color: #f4b6c7;
-}
-
-/* footer end */
-

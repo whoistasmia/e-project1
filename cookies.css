@@ -190,6 +190,41 @@
 
 /* ---footer shuru--- */
 
+.footer {
+    background-color: #512337;
+    color: white;
+    padding: 50px 0 20px;
+    margin: 50px 0 0;
+}
 
+/* Headings */
+.footer h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer h4 {
+    color: #f4b6c7;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.footer p {
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+/* Links */
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #f4b6c7;
+}
 
 
